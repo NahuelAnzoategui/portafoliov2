@@ -1,0 +1,18 @@
+:root {
+    --font-principal-:#464646;
+    --background-color-principal: #f5f5f5;
+}
+
+
+header{
+
+    background-color:var(--background-color-principal);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+nav li {
+    display: inline
+
+}
