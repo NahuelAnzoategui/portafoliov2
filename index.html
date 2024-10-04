@@ -3,45 +3,348 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Marcelo Yrala - Desarrollador Front End</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/flexbox.css">
-    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <title>Portafolio Challenge Alura - Marcelo Yrala</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
-        <div class="logo">Marcelo Yrala</div>
-        <nav>
-            <ul>
-                <li><a href="#about">Sobre Mi</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#formacion">Formación</a></li>
-                <li><a href="#projects">Proyectos</a></li>
-                <li><a href="#contact">Contacto</a></li>
-                <li><a href="#">CV</a></li>
-            </ul>
-        </nav>
+        <div class="logo">
+    <div class="logo__img"><a href="index.html"><img class="logo__pic" width="50px" src="img/programmer_2092430.png" alt="logo programador"></a></div>
+    <div class="logo__texto"><h1>Marcelo Yrala</h1></div>
+</div>
+    <nav class="header_navegacion">
+       <ul>
+        <li><a href="index.html#sobremi">Sobre mi</a></li>
+        <li><a href="index.html#skills">Skills</a></li>
+        <li><a href="index.html#hobbies">Hobbies</a></li>
+        <li><a href="index.html#formacion">Formación</a></li>
+        <li><a href="index.html#proyectos">Proyectos</a></li>
+        <li><a href="index.html#contacto">contacto@contacto.com</a></li>
+     </ul>
+    </nav>
+    <nav class="navegacion_tablet">
+        <li><a href="index.html#contacto">contacto@contacto.com</a></li>
+    </nav>
+    
     </header>
+    <div class="presentacion">
+        <div class="presentacion__texto">
+            <h2>Hola Soy Marcelo y hago paginas web</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit facilis veniam ipsa maiores alias vel. Perspiciatis unde incidunt minima beatae quisquam temporibus et minus, corporis reiciendis assumenda praesentium natus officia?</p>
+            <div class="presentacion__navegacion">
+                <ul>
+                    <li><a href="#">GitHub <img src="img/arrow.png" alt="arrow"></a></li>
+                    <li><a href="#">Linkedin <img src="img/arrow.png" alt="arrow"></a></li>
+                    <li><a href="#">Instagram <img src="img/arrow.png" alt="arrow"></a></li>
+                    <li><a href="#">Curriculum <img src="img/arrow.png" alt="arrow"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="presentacion__foto">
+            <img src="img/fotoperfil.png" alt="foto de perfil" class="presentacion__foto_perfil">
+        </div>
+    </div>
+    <div class="sobremi" id="sobremi">
+        <h2>
+            Sobre mi
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quia dolorem dolore nisi voluptas sed nam unde in earum, minus fugiat non qui laudantium saepe optio officia consectetur odit recusandae?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sed eum magni beatae voluptatibus, error at illo tenetur possimus molestiae a. Nulla, enim. Maiores nesciunt aut itaque, error eum numquam.</p>
+        <img src="img/signature.png" alt="firma">
+    </div>
     <main>
-        <div class="info">
-<h1>Hola, mi nombre es Marcelo Yrala y construyo paginas web</h1>
-<p>Soy formado en la educacion publica y actualmente estoy participando del proyecto Oracle ONE en Alura Latam</p>
+        <section class="skills" id="skills">
+<div class="skills_title">
+    <h2>Skills</h2>
+</div>
+<div class="skills_container">
+    <!-- inicio cubo -->
+    <div class="skills_cube">
+        <figure class="skills_img">
+            <img src="img/html.png" alt="logo HTML5">
+       
+        <figcaption class="skills_caption">HTML5</figcaption>
+           
+        </figure>
+       
+        </div>
+        <!-- fin cubo -->
+         <!-- inicio cubo -->
+    <div class="skills_cube">
+        <figure class="skills_img">
+            <img src="img/js_icon.png" alt="logo Javascript">
+       
+        <figcaption class="skills_caption">JAVASCRIPT</figcaption>
+           
+        </figure>
+       
+        </div>
+        <!-- fin cubo -->
+         <!-- inicio cubo -->
+    <div class="skills_cube">
+        <figure class="skills_img">
+            <img src="img/php_icon.png" alt="logo PHP">
+       
+        <figcaption class="skills_caption">PHP</figcaption>
+           
+        </figure>
+       
+        </div>
+        <!-- fin cubo -->
+         <!-- inicio cubo -->
+    <div class="skills_cube">
+        <figure class="skills_img">
+            <img src="img/nodejs_icon.png" alt="logo NODEJS">
+       
+        <figcaption class="skills_caption">NODEJS</figcaption>
+           
+        </figure>
+       
+        </div>
+        <!-- fin cubo -->
+         <!-- inicio cubo -->
+    <div class="skills_cube">
+        <figure class="skills_img">
+            <img src="img/react_icon.png" alt="logo React">
+       
+        <figcaption class="skills_caption">REACT</figcaption>
+           
+        </figure>
+       
+        </div>
+        <!-- fin cubo -->
+         <!-- inicio cubo -->
+    <div class="skills_cube">
+        <figure class="skills_img">
+            <img src="img/css_icon.png" alt="logo CSS">
+       
+        <figcaption class="skills_caption">CSS</figcaption>
+           
+        </figure>
+       
+        </div>
+        <!-- fin cubo -->
+       
+</div>
+</section>
+ <!-- SECCION HOBBIES -->
+ <section class="hobbies" id="hobbies">
+    <div class="hobbies_title">
+        <h2>Hobbies</h2>
     </div>
-    <div class="social">
-        <ul>
-            <li>Github</li>
-            <li>Linkedin</li>
-            <li>Instagram</li>
-            <li>Curriculum</li>
-        </ul>
+    <div class="hobbies_container">
+        <!-- inicio cubo -->
+        <div class="hobbies_cube">
+            <figure class="hobbies_img">
+                <img src="img/skate_icon.png" alt="icono patinador">
+           
+            <figcaption class="hobbies_caption">Patinaje</figcaption>
+               
+            </figure>
+           
+            </div>
+            <!-- fin cubo -->
+             <!-- inicio cubo -->
+        <div class="hobbies_cube">
+            <figure class="hobbies_img">
+                <img src="img/guitar_icon.png" alt="icono guitarra">
+           
+            <figcaption class="hobbies_caption">Guitarra</figcaption>
+               
+            </figure>
+           
+            </div>
+            <!-- fin cubo -->
+             <!-- inicio cubo -->
+        <div class="hobbies_cube">
+            <figure class="hobbies_img">
+                <img src="img/headphones_icon.png" alt="icono musica">
+           
+            <figcaption class="hobbies_caption">Musica</figcaption>
+               
+            </figure>
+           
+            </div>
+            <!-- fin cubo -->
+             <!-- inicio cubo -->
+        <div class="hobbies_cube">
+            <figure class="hobbies_img">
+                <img src="img/tv_icon.png" alt="Icono televisor">
+           
+            <figcaption class="hobbies_caption">Series</figcaption>
+               
+            </figure>
+           
+            </div>
+            <!-- fin cubo -->
+             <!-- inicio cubo -->
+        <div class="hobbies_cube">
+            <figure class="hobbies_img">
+                <img src="img/forkspoon_icon.png" alt="Icono cuchillo y tenedor">
+           
+            <figcaption class="hobbies_caption">Cocinar</figcaption>
+               
+            </figure>
+           
+            </div>
+            <!-- fin cubo -->
+             <!-- inicio cubo -->
+        <div class="hobbies_cube">
+            <figure class="hobbies_img">
+                <img src="img/camera_icon.png" alt="logo CSS">
+           
+            <figcaption class="hobbies_caption">Fotografia</figcaption>
+               
+            </figure>
+           
+            </div>
+            <!-- fin cubo -->
+           
     </div>
-    <div class="pic">
-        <img src="" alt="Foto Personal">
+    </section>
+
+<!-- SECCION FORMACION -->
+
+<section class="formacion" id="formacion">
+    <div class="formacion_title">
+        <h2>Formación académica</h2>
     </div>
-</main>
-    <footer id="contact">
-        <p>Desarrollado por Marcelo Yrala</p> <p>2024</p>
+    <div class="formacion_contenedor">
+    <!-- INICIO CUBO -->
+     <div class="formacion_cubes">
+        <figure class="formacion_img">
+            <img src="img/ufpr_logo.png" alt="logo universidad">
+            <p class="formacion_text">Analisis de datos</p>
+            <p class="formacion_date">2018 - UPFR</p>
+        </figure>
+     </div>
+     <!-- FIN CUBO -->
+       <!-- INICIO CUBO -->
+     <div class="formacion_cubes">
+        <figure class="formacion_img">
+            <img src="img/alura_logo.png" alt="logo Alura">
+            <p class="formacion_text">Formacion en UX Design</p>
+            <p class="formacion_date">2019 - Alura</p>
+        </figure>
+     </div>
+     <!-- FIN CUBO -->
+       <!-- INICIO CUBO -->
+     <div class="formacion_cubes">
+        <figure class="formacion_img">
+            <img src="img/ufrj_logo.png" alt="">
+            <p class="formacion_text">Posgrado en design</p>
+            <p class="formacion_date">En curso - UPRJ</p>
+        </figure>
+     </div>
+    </div>
+     <!-- FIN CUBO -->
+</section>
+
+<!-- SECCION EXPERIENCIA PROFESIONAL -->
+
+<section class="experiencia" id="proyectos">
+    <div class="experiencia_title">
+        <h2>Experiencia Profesional</h2>
+    </div>
+    <!-- INICIO CUBO -->
+     <div class="experiencia_cube">
+        <div class="experiencia_img">
+            <img src="img/decod_print.png" alt="imagen proyecto">
+        </div>
+        <div class="experiencia_text">
+            <h2>Encriptador de texto</h2>
+            <h3>Challenge Alura Codificador</h3>
+            <a class="repo_btn" href="">Repositorio</a>
+            <a class="demo_btn" href="">Ver Demo</a>
+        </div>
+     </div>
+     <!-- FIN CUBO -->
+   <!-- INICIO CUBO -->
+   <div class="experiencia_cube_reverse">
+    <div class="experiencia_img">
+        <img src="img/forca_print.png" alt="imagen proyecto">
+    </div>
+    <div class="experiencia_text">
+        <h2>Juego creado con HTML y JavaScript</h2>
+        <h3>Challenge Oracle</h3>
+        <a class="repo_btn" href="">Repositorio</a>
+        <a class="demo_btn"class="demo_btn" href="">Ver Demo</a>
+    </div>
+ </div>
+ <!-- FIN CUBO -->
+     <!-- INICIO CUBO -->
+     <div class="experiencia_cube">
+        <div class="experiencia_img">
+            <img src="img/secretcode_print.png" alt="imagen proyecto">
+        </div>
+        <div class="experiencia_text">
+            <h2>Encriptador de texto</h2>
+            <h3>Challenge Oracle</h3>
+            <a class="repo_btn" href="">Repositorio</a>
+            <a class="demo_btn" href="">Ver Demo</a>
+        </div>
+     </div>
+     <!-- FIN CUBO -->
+
+        <!-- INICIO CUBO -->
+        <div class="experiencia_cube_reverse">
+            <div class="experiencia_img">
+                <img src="img/forca2_print.png" alt="imagen proyecto">
+            </div>
+            <div class="experiencia_text">
+                <h2>Juego creado con HTML, CSS y JavaScript</h2>
+                <h3>Challenge Oracle</h3>
+                <a class="repo_btn" href="">Repositorio</a>
+                <a class="demo_btn" href="">Ver Demo</a>
+            </div>
+         </div>
+         <!-- FIN CUBO -->
+
+</section>
+<!-- SECCION CONTACTO -->
+<section class="contacto" id="contacto">
+    <div class="contacto_img">
+        <img src="img/contact_image.png" alt="Imagen telefono">
+    </div>
+    <div class="contacto_formulario">
+        <h2>Contacto</h2>
+        <p>¿Quieres contactarme?</p>
+        <p>Completa el siguient formulario y me pondré en contacto con usted lo antes posible</p>
+    
+    <form action="">
+        <div class="name">
+<label for="nombre">Nombre</label>
+<input  id="nombre" type="text" placeholder="Escriba aqui su nombre">
+</div>
+
+<div class="email">
+<label for="email">E-mail</label>
+<input type="email" name="" id="email" placeholder="Escriba aqui su email">
+</div>
+
+<div class="asunto">
+<label for="asunto" >Asunto</label>
+<input type="text" name="" id="asunto" placeholder="Escriba aqui el asunto">
+</div>
+
+<div class="mensaje">
+    <label for="mensaje">Mensaje</label>
+    <textarea name="" id="mensaje" placeholder="Escriba aqui su mensaje"></textarea>
+</div>
+
+
+<input class="btnSubmit" type="submit" value="Enviar Mensaje">
+
+
+    </form>
+</div>
+</section>
+
+
+    </main>
+    <footer>
+<p>Desarrollado por Marcelo Yrala</p>
+<p>2024</p>
     </footer>
 </body>
 </html>
